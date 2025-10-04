@@ -1,19 +1,12 @@
-# Keeper Notes 📝
+# React + Vite
 
-Keeper Notes is a simple React-based note-taking application inspired by Google Keep.  
-It allows users to create, view, and delete notes with a clean and minimal UI.  
-This project is built using **React Hooks** and functional components to demonstrate state management.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- ➕ Add new notes with a title and content
-- 🗑️ Delete notes easily
-- 📅 Dynamic footer with the current year
-- 🎨 Simple and responsive design (Bootstrap + CSS)
+Currently, two official plugins are available:
 
-## Tech Stack
-- React (Vite + JSX)
-- JavaScript (ES6+)
-- Bootstrap 5
-- CSS3
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Expanding the ESLint configuration
 
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
